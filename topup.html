@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topup Koro Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #f2f6ff;
+        }
+        header, footer {
+            background-color: #0e1a35;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            background: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-top: 1px solid #ccc;
+        }
+        nav a {
+            text-align: center;
+            color: #000;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        .section {
+            padding: 20px;
+            margin-bottom: 60px; /* Fixed nav-এর জায়গা রাখে */
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .card {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .notice {
+            background: #083760;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>টপআপ করো ক্লোন</h1>
+</header>
+
+<div class="section">
+    <div class="notice">
+        🔔 নতুন অফার: এখন সব রিচার্জে পাচ্ছেন ১০% ক্যাশব্যাক!
+    </div>
+    <div class="grid">
+        <div class="card">
+            <img src="https://via.placeholder.com/100" alt="Recharge">
+            <p>রিচার্জ</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/100" alt="Internet Pack">
+            <p>ইন্টারনেট প্যাক</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/100" alt="Electricity">
+            <p>বিদ্যুৎ বিল</p>
+        </div>
+    </div>
+</div>
+
+<nav>
+    <a href="#"><i class="fas fa-home"></i><br>হোম</a>
+    <a href="#"><i class="fas fa-wallet"></i><br>ওয়ালেট</a>
+    <a href="#"><i class="fas fa-user"></i><br>প্রোফাইল</a>
+</nav>
+
+<footer>
+    &copy; ২০২৫ টপআপ করো | সকল অধিকার সংরক্ষিত
+</footer>
+
+</body>
+</html>
